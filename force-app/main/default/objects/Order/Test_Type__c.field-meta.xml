@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Type__c</fullName>
+    <description>Determines which product code is auto added to the Order</description>
+    <label>Test Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DD01</fullName>
+                <default>false</default>
+                <label>Delve Detect CSF</label>
+            </value>
+            <value>
+                <fullName>DD02</fullName>
+                <default>false</default>
+                <label>Delve Detect Plasma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
